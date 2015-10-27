@@ -1,0 +1,44 @@
+<article id="article_notlogged_radio_ui" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <button id="btn_notlogged_radio_ui" data-section="section_notlogged_radio_ui" data-visible="section_notlogged_rds" class="icon play"></button>
+            <button id="btn_notlogged_radio_ui_reload" data-section="section_notlogged_radio_ui" data-visible="section_notlogged_radio_ui" class="icon arrows-cw"></button>
+        </nav>
+        <nav class="right">
+            <!--<button data-section="section_notlogged_identify_register" data-visible="section_notlogged_radio_ui" class="icon login"></button>-->
+            <button data-back="section_index" data-visible="section_notlogged_radio_ui" class="icon login"></button>
+        </nav>
+        <h1 data-l10n-id="id_fmradiords">FM Radio RDS</h1>
+    </header>
+    <footer>
+        <nav>
+            <button id="btn_section_notlogged_rds" data-section="section_notlogged_rds" class="icon shuffle"></button>
+        </nav>
+    </footer>
+
+    <section id="section_notlogged_radio_ui" class="indented" data-animation="slide">
+        <div id="ppal_radio_notlogged" class="info_vista_ppal_noscrollContent_notlogged">
+            <ul class="ul_centered_sin_margenes">
+                <h3 class="align-center subtitulo info_vista_ppal" data-l10n-id="id_article_logged_nombre_emisora_seleccionada" id="id_article_notlogged_nombre_emisora_seleccionada"></h3>
+                <h3 class="align-center subtitulo info_vista_ppal" data-l10n-id="id_article_logged_frecuencia_emisora_seleccionada" id="id_article_notlogged_frecuencia_emisora_seleccionada"></h3>
+            </ul>
+        </div>
+        <div>
+            <ul class="ul_centered_sin_margen_sup_notlogged">
+                <button class="normal blue icon pause botones_punt_fav" id="btn_notlogged_btn_pause"></button>
+                <button class="normal blue icon play botones_punt_fav" id="btn_notlogged_btn_play"></button>
+            </ul>
+        </div>
+        <div id="ppal_listado_emisiones" class="info_vista_ppal_scrollContent_notlogged">
+        <!--<div id="ppal_listado_emisiones" class="info_vista_ppal_scrollContent">-->
+            <ul id="txtBD_radio_ui_notlogged_json"></ul>
+        </div>
+    </section>
+    
+    <section id="section_notlogged_rds" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_notlogged_rds_text1">RDS</h1>
+        <button class="icon info-circled blue btn_fijo_superior_drch" id="id_btn_notlogged_rds_info"></button>
+        <ul id="txtBD_rds_notlogged"></ul>
+        <ul id="txtBD_rds_notlogged_json"></ul>
+    </section>
+</article>

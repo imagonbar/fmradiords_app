@@ -1,0 +1,110 @@
+<article id="article_logged_profile" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <!--<button id="id_btn_logged_profile_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile"></button>-->
+            <button id="id_btn_logged_profile_back" class="icon left-open" data-back-logged="article_logged_radio_ui"></button>
+            <!--<button id="id_btn_logged_profile_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile"></button>
+            <button id="id_btn_logged_profile_favoritos_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_favoritos"></button>
+            <button id="id_btn_logged_profile_puntuados_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_puntuados"></button>
+            <button id="id_btn_logged_profile_aniadidos_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_aniadidos"></button>
+            <button id="id_btn_logged_profile_historial_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_historial"></button>
+            <button id="id_btn_logged_profile_comentarios_back" class="icon left-open" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_comentarios"></button>-->
+        </nav>
+        <nav class="right">
+            <button class="icon share" id="btn_logged_profile_share_notification_firefoxos" data-visible="section_logged_profile" data-os="firefoxos"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-os="android"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="firefox"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="chrome"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="safari"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="ie"></button>
+        </nav>
+        <h1 data-l10n-id="id_article_logged_profile_titulo">Perfil</h1>
+    </header>
+    <footer>
+        <nav>
+            <button data-section="section_logged_profile" class="icon user"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big"></button> 
+            <button data-section="section_logged_profile_listado_favoritos" id="id_logged_profile_list_favoritos" class="icon star"></button>
+            <button data-section="section_logged_profile_listado_puntuados" id="id_logged_profile_list_puntuados" class="icon edit"></button>
+            <button data-section="section_logged_profile_listado_aniadidos" id="id_logged_profile_list_aniadidos" class="icon docs"></button>
+        </nav>
+    </footer>
+
+    <!--<section id="section_logged_profile" class="indented" data-animation="slide">
+        <ul id="txtBD_usuario_logged_profile_datos"></ul>
+        <!- -<ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_foto">Foto</li>
+            <li><input type="file" accept="image/*" multiple id="input_foto"></li>
+        </ul>- ->
+        
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_gps_info_coordenadas">Coordenadas GPS</li>
+            <li>
+                <input type="text" id="id_article_logged_profile_coordenadas" class="line" disabled="">
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_gps_info_zona">Posición</li>
+            <li>
+                <input type="text" id="id_article_logged_profile_posicion" class="line" disabled="">
+            </li>
+        </ul>
+
+        <h1 class="align-center" data-l10n-id="id_gps_latitud_info" id="id_gps_latitud_info" hidden></h1>     
+        <h1 class="align-center" data-l10n-id="id_gps_longitud_info" id="id_gps_longitud_info" hidden></h1>
+               
+        <h3 class="align-center" id="id_article_logged_posicion_gps_info_posiciones" hidden></h3><!- - style="font-weight: 300;" - ->
+        
+        <h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_article_notlogged_posicion_gps_info_ciudad" id="id_article_notlogged_posicion_gps_info_ciudad" hidden></h3>
+        
+        <h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_gps_info_ciudad2" id="id_article_notlogged_posicion_gps_info_ciudad2" hidden></h3>
+
+        <ul class="ul_centered">
+            <button class="blue" data-article="article_logged_profile_cambiar_pass" data-l10n-id="id_cambiar_password">Cambiar Password</button><br/>
+            <button class="small blue" data-l10n-id="id_article_logged_cerrar_sesion" id="btn_logged_profile_close_session">Cerrar Sesion</button>
+            <button class="small blue" data-l10n-id="id_article_logged_eliminar_cuenta" data-article="article_logged_profile_eliminar_usuario">Eliminar Cuenta</button>
+        </ul>
+    </section>-->
+
+    <!--<section id="section_logged_profile_listado_comentarios" class="indented" data-animation="slide">
+        <div class="color_fondo_app">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_titulo">Redactar comentario sobre la app</li>
+            <li>
+                <textarea id="id_article_logged_profile_listado_comentario_usuario_textarea" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_textarea_vacia" maxlength="160"></textarea>
+                <!- - placeholder="Escribe que te parece la app, que mejorarías y que no... Tu opinión nos interesa!!" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_textarea" - ->
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_informacion_publica">*este comentario puede aparecer de modo público para el resto de usuarios</p>
+            </li>
+        </ul>
+        <ul>
+            <button class="wide" data-l10n-id="id_article_logged_profile_listado_comentario_btn_guardar_comentario" id="id_article_logged_profile_btn_guardar_comentario">Guardar comentario</button>
+            <p><span id="txtBD_aniadir_comentario" hidden></span></p>
+        </ul>
+            <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_comentarios_subtitulo2"> Listado Comentarios del usuario</h1>
+            <!- -<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_comentarios_subtitulo">Sección Listado Comentarios del usuario</h1>- ->
+            <ul id="txtBD_usuario_logged_profile_listado_comentarios_propios"></ul>
+            <ul class="ul_centered">
+                <button class="wide_index black" data-section="section_logged_comments" data-l10n-id="id_btn_comments" id="id_btn_comments_logged">Ver Comentarios</button>
+            </ul>
+        </div>
+    </section>-->
+
+    <!--<section id="section_logged_profile_listado_favoritos" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_favoritos_titulo">Sección Listado Favoritos</h1>
+        <!- -<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_favoritos_text1">Sección Listado Favoritos</h1>- ->
+        <ul id="txtBD_usuario_logged_profile_listado_favoritos_propios"></ul>
+    </section>-->
+    
+    <!--<section id="section_logged_profile_listado_puntuados" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_puntuados_titulo">Sección Listado Puntuados</h1>
+        <!- -<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_puntuados_text1">Sección Listado Puntuados</h1>- ->
+        <ul id="txtBD_usuario_logged_profile_listado_puntuados_propios"></ul>
+    </section>-->
+
+    <!--<section id="section_logged_profile_listado_aniadidos" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_aniadidos_titulo">Sección Listado Añadidos</h1>
+        <!- -<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_aniadidos_text1">Sección Listado Añadidos</h1>- ->
+        <ul id="txtBD_usuario_logged_profile_listado_aniadidos_emisoras_propios"></ul>
+        <ul id="txtBD_usuario_logged_profile_listado_aniadidos_emisiones_propios"></ul>
+    </section>-->
+</article>

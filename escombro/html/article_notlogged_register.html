@@ -1,0 +1,44 @@
+<article id="article_notlogged_register" data-animation="slide">
+    <header>
+        <nav class="left">
+            <!--<button class="icon left-open" data-section="section_notlogged_identify_register" id="id_notlogged_register_back"></button>-->
+            <button class="icon left-open" data-back-notlogged-regident="article_notlogged_identify_register" id="id_notlogged_register_back"></button>
+        </nav>
+        <h1 data-l10n-id="id_register_titulo">Registro</h1>
+    </header>
+    <section id="section_notlogged_register" class="indented" data-animation="slide">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_nombre_usuario">Nombre Usuario</li>
+            <li>
+                <input type="text" id="id_article_notlogged_register_nombre_usuario" class="line">
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_minimos_caracteres" maxlength="20">*mínimo 6 carácteres</p>
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_email">Email</li>
+            <li><input type="email" id="id_article_notlogged_register_email" class="line"></li>
+        </ul>
+        <!--<ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_foto">Foto</li>
+            <li><input class="input" type="file" accept="image/*" multiple id="foto">Add Pict</li>
+            <button class="wide_index" id="pick-image" data-l10n-id="pick-image">Pick image</button>
+            <div id="image-presenter"></div>
+        </ul>-->
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password">Password</li>
+            <li><input type="password" id="id_article_notlogged_register_pass" class="line">
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_minimos_caracteres">*mínimo 6 carácteres</p>
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;">Repetir Password</li>
+            <li><input type="password" id="id_article_notlogged_register_pass_rep" class="line">
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_minimos_caracteres">*mínimo 6 carácteres</p>
+            </li>
+        </ul>
+        <input type="button" type"submit" class="wide" id="id_article_notlogged_register_btn_register" data-l10n-id="      id_register_btn_register" value="Realizar Registro"></input>
+        <!--<button class="wide" data-l10n-id="id_register_btn_register" id="id_article_notlogged_register_btn_register">Realizar Registro</button>-->
+        <p><span id="txtBD_aniadir_usuario_notlogged"></span></p>
+    </section>
+</article>
+

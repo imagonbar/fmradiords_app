@@ -1,0 +1,50 @@
+<article id="db_local" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <button class="icon left-open" data-article="article_index"></button>
+        </nav>
+        <h1 data-l10n-id="id_pruebas2_titulo">DB Local</h1>
+    </header>
+    <nav>
+        <button data-section="section_pruebas2" class="icon check">Añadir</button>
+        <button data-section="section_listado_emisoras" class="">Listar emisiones</button>
+        <button data-section="section_listado_usuarios" class="">Listar usuarios</button>
+    </nav>
+    <footer>
+        <button class="icon">@imagonbar</button>
+    </footer>
+
+    <section id="section_db_local" class="indented" data-animation="slide">
+		<h1 class="align-center" data-l10n-id="id_article_prueba2_text1">Sección añadir usuario</h1>
+        <h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_article_prueba2_text2">Añadir un usuario.</h3>
+
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="a">Introduce un nombre</li>
+            <li><input type="text" id="id_article_pruebas2_aniadir_usuario_nombre"/></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="a">Introduce un numero</li>
+            <li><input type="number" id="id_article_pruebas2_aniadir_usuario_numero"/></li>
+        </ul>
+        <button class="wide" data-l10n-id="id_add" id="id_article_pruebas2_aniadir_usuario_btn_add">Añadir</button>
+        <h3 class="align-center" style="font-weight: 300;" id="id_article_prueba2_result"></h3>
+    </section>
+
+    <section id="section_listado_emisoras" class="indented" data-animation="slide">
+        <h1 class="align-center">Sección listado emisiones</h1>
+        <ul class="ul_centered">
+            <li>
+                <p id="listado_elementos_sin_enlace_emisoras"></p>
+            </li>
+        </ul>
+        <button id="btn_get_all_emisoras" class="ul_centered">Ver emisiones</button>
+    </section>
+
+    <section id="section_listado_usuarios" class="indented" data-animation="slide">
+        <h1 class="align-center">Sección listado usuarios</h1>
+        <ul class="ul_centered">
+            <li><p id="listado_elementos_sin_enlace_usuarios"></p></li>
+        </ul>
+        <button id="btn_get_all_usuarios" class="ul_centered">Ver usuarios</button>
+    </section>
+</article>

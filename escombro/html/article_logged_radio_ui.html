@@ -1,0 +1,400 @@
+<article id="article_logged_radio_ui" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <!-- LOGGED RADIO UI -->
+            <button id="btn_logged_radio_ui_reload" data-section="section_logged_radio_ui" class="icon arrows-cw" data-visible="section_logged_radio_ui"></button>
+            <button id="btn_logged_radio_ui_add" data-section="section_logged_radio_ui" class="icon play" data-visible="section_logged_aniadir_emision"><!-- <img src="./stylesheets/mine/icono_pua/icono_blanco_pua.png" alt=""> --></button>
+            <button class="icon left-open" data-section="section_logged_aniadir_emision" data-visible="section_logged_aniadir_emisora_nueva"></button>
+            <button id="btn_logged_radio_ui_rds" data-section="section_logged_radio_ui" class="icon play" data-visible="section_logged_rds"></button>
+            <button id="btn_logged_radio_ui_scan" data-section="section_logged_radio_ui" class="icon play" data-visible="section_logged_escanear_emisoras"></button>
+            <button id="btn_logged_radio_ui_info_emisora" data-section="section_logged_radio_ui" class="icon play" data-visible="section_logged_info_emisora"></button>
+
+            <!-- LOGGED PROFILE -->
+            <button id="id_btn_logged_profile_back" class="icon play" data-section="section_logged_radio_ui" data-visible="section_logged_profile"></button>
+            <button id="id_btn_logged_profile_back" class="icon play" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_comentarios"></button>
+            <button class="icon left-open" data-section="section_logged_profile_listado_comentarios" data-visible="section_logged_comments"></button>
+            <button id="id_btn_logged_profile_back" class="icon play" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_favoritos"></button>
+            <button id="id_btn_logged_profile_back" class="icon play" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_puntuados"></button>
+            <button id="id_btn_logged_profile_back" class="icon play" data-section="section_logged_radio_ui" data-visible="section_logged_profile_listado_aniadidos"></button>
+
+            <!-- LOGGED PROFILE CAMBIAR PASS -->
+            <button class="icon left-open" data-section="section_logged_profile" data-visible="section_logged_profile_cambiar_pass"></button>
+            <!-- LOGGED PROFILE DAR BAJA -->
+            <button class="icon left-open" data-section="section_logged_profile" data-visible="section_logged_profile_eliminar_usuario"></button>
+
+        </nav>
+        <nav class="right">
+            <!-- LOGGED RADIO UI -->
+            <button  class="icon user" data-section="section_logged_profile" data-visible="section_logged_radio_ui"></button>
+
+            <!-- LOGGED PROFILE -->
+            <button class="icon share" id="btn_logged_profile_share_notification_firefoxos" data-visible="section_logged_profile" data-os="firefoxos"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-os="android"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="firefox"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="chrome"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="safari"></button>
+            <button class="icon share" id="btn_logged_profile_share_notification_others" data-visible="section_logged_profile" data-browser="ie"></button>
+        </nav>
+        <!-- LOGGED RADIO UI -->
+        <h1 data-l10n-id="id_fmradiords" data-visible="section_logged_radio_ui">FM Radio RDS</h1>
+        <h1 data-l10n-id="id_fmradiords" data-visible="section_logged_aniadir_emision">FM Radio RDS</h1>
+        <h1 data-l10n-id="id_fmradiords" data-visible="section_logged_aniadir_emisora_nueva">FM Radio RDS</h1>
+        <h1 data-l10n-id="id_fmradiords" data-visible="section_logged_rds">FM Radio RDS</h1>
+        <h1 data-l10n-id="id_fmradiords" data-visible="section_logged_escanear_emisoras">FM Radio RDS</h1>
+
+        <!-- LOGGED INFO RADIO -->
+        <h1 data-l10n-id="id_article_logged_info_emisora_titulo" data-visible="section_logged_info_emisora">Info Emisora Completa</h1>
+
+        <!-- LOGGED PROFILE -->
+        <h1 data-l10n-id="id_article_logged_profile_titulo" data-visible="section_logged_profile">Perfil</h1>
+        <h1 data-l10n-id="id_article_logged_profile_titulo" data-visible="section_logged_profile_listado_comentarios">Perfil</h1>
+        <h1 data-l10n-id="id_comments" data-visible="section_logged_comments">Comentarios</h1>
+        <h1 data-l10n-id="id_article_logged_profile_titulo" data-visible="section_logged_profile_listado_favoritos">Perfil</h1>
+        <h1 data-l10n-id="id_article_logged_profile_titulo" data-visible="section_logged_profile_listado_puntuados">Perfil</h1>
+        <h1 data-l10n-id="id_article_logged_profile_titulo" data-visible="section_logged_profile_listado_aniadidos">Perfil</h1>
+
+        <!-- LOGGED PROFILE CAMBIAR PASS -->
+        <h1 data-l10n-id="id_cambiar_password" data-visible="section_logged_profile_cambiar_pass">Cambiar Password</h1>
+
+        <!-- LOGGED PROFILE DAR BAJA USUARIO -->
+        <h1 data-l10n-id="id_eliminar_usuario" data-visible="section_logged_profile_eliminar_usuario">Eliminar usuario</h1>
+    </header>
+
+    <footer>
+        <nav>
+            <!-- LOGGED RADIO UI -->
+            <!--<button data-section="section_logged_aniadir_emision" class="icon plus"></button>
+            <button data-section="section_logged_rds" id="btn_section_logged_rds" class="icon shuffle"></button>
+            <button data-section="section_logged_escanear_emisoras" class="icon rss-squared"></button>-->
+            <button data-section="section_logged_aniadir_emision" class="icon plus" data-visible="section_logged_radio_ui"></button>
+            <button data-section="section_logged_aniadir_emision" class="icon plus" data-visible="section_logged_aniadir_emision"></button>
+            <button data-section="section_logged_aniadir_emision" class="icon plus" data-visible="section_logged_rds"></button>
+            <button data-section="section_logged_aniadir_emision" class="icon plus" data-visible="section_logged_escanear_emisoras"></button>
+            <button data-section="section_logged_aniadir_emision" class="icon plus" data-visible="section_logged_aniadir_emisora_nueva"></button>
+            
+            <button data-section="section_logged_rds" id="btn_section_logged_rds" class="icon shuffle" data-visible="section_logged_radio_ui"></button>
+            <button data-section="section_logged_rds" id="btn_section_logged_rds" class="icon shuffle" data-visible="section_logged_aniadir_emision"></button>
+            <button data-section="section_logged_rds" id="btn_section_logged_rds" class="icon shuffle" data-visible="section_logged_rds"></button>
+            <button data-section="section_logged_rds" id="btn_section_logged_rds" class="icon shuffle" data-visible="section_logged_escanear_emisoras"></button>
+            <button data-section="section_logged_rds" id="btn_section_logged_rds" class="icon shuffle" data-visible="section_logged_aniadir_emisora_nueva"></button>
+
+            <button data-section="section_logged_escanear_emisoras" class="icon rss-squared" data-visible="section_logged_radio_ui"></button>
+            <button data-section="section_logged_escanear_emisoras" class="icon rss-squared" data-visible="section_logged_aniadir_emision"></button>
+            <button data-section="section_logged_escanear_emisoras" class="icon rss-squared" data-visible="section_logged_rds"></button>
+            <button data-section="section_logged_escanear_emisoras" class="icon rss-squared" data-visible="section_logged_escanear_emisoras"></button>
+            <button data-section="section_logged_escanear_emisoras" class="icon rss-squared" data-visible="section_logged_aniadir_emisora_nueva"></button>
+            
+            <!-- LOGGED INFO RADIO -->
+            <button id="id_logged_info_emisora" class="icon calendar" data-visible="section_logged_info_emisora"></button>
+            
+            <!-- LOGGED PROFILE -->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big" data-visible="section_logged_profile"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big" data-visible="section_logged_comments"></button> 
+            <button data-section="section_logged_profile_listado_favoritos" id="id_logged_profile_list_favoritos" class="icon star" data-visible="section_logged_profile"></button>
+            <button data-section="section_logged_profile_listado_puntuados" id="id_logged_profile_list_puntuados" class="icon edit" data-visible="section_logged_profile"></button>
+            <button data-section="section_logged_profile_listado_aniadidos" id="id_logged_profile_list_aniadidos" class="icon docs" data-visible="section_logged_profile"></button>
+
+            <!-- LOGGED PROFILE CAMBIAR PASS-->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile_cambiar_pass"></button>
+            
+            <!-- LOGGED PROFILE DAR BAJA USUARIO-->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile_eliminar_usuario"></button>
+
+            <!-- LOGGED PROFILE COMENTARIOS-->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile_listado_comentarios"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big" data-visible="section_logged_profile_listado_comentarios"></button> 
+            <button data-section="section_logged_profile_listado_favoritos" id="id_logged_profile_list_favoritos" class="icon star" data-visible="section_logged_profile_listado_comentarios"></button>
+            <button data-section="section_logged_profile_listado_puntuados" id="id_logged_profile_list_puntuados" class="icon edit" data-visible="section_logged_profile_listado_comentarios"></button>
+            <button data-section="section_logged_profile_listado_aniadidos" id="id_logged_profile_list_aniadidos" class="icon docs" data-visible="section_logged_profile_listado_comentarios"></button>
+
+            <!-- LOGGED PROFILE FAVORITOS-->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile_listado_favoritos"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big" data-visible="section_logged_profile_listado_favoritos"></button> 
+            <button data-section="section_logged_profile_listado_favoritos" id="id_logged_profile_list_favoritos" class="icon star" data-visible="section_logged_profile_listado_favoritos"></button>
+            <button data-section="section_logged_profile_listado_puntuados" id="id_logged_profile_list_puntuados" class="icon edit" data-visible="section_logged_profile_listado_favoritos"></button>
+            <button data-section="section_logged_profile_listado_aniadidos" id="id_logged_profile_list_aniadidos" class="icon docs" data-visible="section_logged_profile_listado_favoritos"></button>
+
+            <!-- LOGGED PROFILE PUNTUADOS-->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile_listado_puntuados"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big" data-visible="section_logged_profile_listado_puntuados"></button> 
+            <button data-section="section_logged_profile_listado_favoritos" id="id_logged_profile_list_favoritos" class="icon star" data-visible="section_logged_profile_listado_puntuados"></button>
+            <button data-section="section_logged_profile_listado_puntuados" id="id_logged_profile_list_puntuados" class="icon edit" data-visible="section_logged_profile_listado_puntuados"></button>
+            <button data-section="section_logged_profile_listado_aniadidos" id="id_logged_profile_list_aniadidos" class="icon docs" data-visible="section_logged_profile_listado_puntuados"></button>
+
+            <!-- LOGGED PROFILE ANIADIDOS-->
+            <button data-section="section_logged_profile" class="icon user" data-visible="section_logged_profile_listado_aniadidos"></button>
+            <button data-section="section_logged_profile_listado_comentarios" id="id_logged_profile_list_comentarios" class="icon list-big" data-visible="section_logged_profile_listado_aniadidos"></button> 
+            <button data-section="section_logged_profile_listado_favoritos" id="id_logged_profile_list_favoritos" class="icon star" data-visible="section_logged_profile_listado_aniadidos"></button>
+            <button data-section="section_logged_profile_listado_puntuados" id="id_logged_profile_list_puntuados" class="icon edit" data-visible="section_logged_profile_listado_aniadidos"></button>
+            <button data-section="section_logged_profile_listado_aniadidos" id="id_logged_profile_list_aniadidos" class="icon docs" data-visible="section_logged_profile_listado_aniadidos"></button>
+        </nav>
+    </footer>
+
+    <section id="section_logged_radio_ui" class="indented" data-animation="slide">
+        <div id="ppal_radio" class="info_vista_ppal_noscrollContent">
+            <ul class="ul_centered_sin_margenes">
+                <h3 class="align-center subtitulo info_vista_ppal" data-l10n-id="id_article_logged_nombre_emisora_seleccionadaa" id="id_article_logged_nombre_emisora_seleccionada"></h3>
+                <h3 class="align-center subtitulo info_vista_ppal" data-l10n-id="id_article_logged_frecuencia_emisora_seleccionadaa" id="id_article_logged_frecuencia_emisora_seleccionada"></h3>
+            </ul>
+
+            <ul class="ul_centered_sin_margen_sup">
+                <button class="normal blue icon chart-bar botones_punt_fav" id="btn_logged_btn_puntuaciones"></button>
+                <button class="normal blue icon star-empty botones_punt_fav" id="btn_logged_btn_favoritos"></button>
+                <button class="normal blue icon pause botones_punt_fav" id="btn_logged_btn_pause"></button>
+                <button class="normal blue icon play botones_punt_fav" id="btn_logged_btn_play"></button>
+                <!--<button class="icon hammer red btn_fijo_superior_izq" id="id_btn_incidencia_logged" data-device="tablet"></button>-->
+                <p><span id="txtBD_aniadir_puntuacion"></span></p>
+                <p><span id="txtBD_aniadir_favorito" hidden></span></p>
+                <p><span id="txtBD_quitar_favorito" hidden></span></p>
+            </ul>
+        </div>
+        
+        <div id="ppal_listado_emisiones" class="info_vista_ppal_scrollContent">
+            <!--<ul id="txtBD_radio_ui_logged"></ul>-->
+            <ul id="txtBD_radio_ui_logged_json"></ul>
+        </div>
+    </section>
+    
+    <section id="section_logged_aniadir_emision" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_aniadir_emision_titulo"></h1>
+        <button class="icon info-circled blue btn_fijo_superior_drch" id="id_btn_logged_add_broadcast_info"></button>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emision_elige_emisora">Nombre emisora de esta emisión</li><!-- id_article_logged_aniadir_emision_title_aniadir-->
+            <li>
+                <div id="txtBD_ddl_emisiones_nombre"></div>
+            </li>
+        </ul>
+        <!--<button class="smallest blue btn_leftered" data-article="article_logged_aniadir_emisora_nueva" data-l10n-id="id_article_logged_aniadir_emision_btn_aniadir_emisora" id="id_article_logged_aniadir_emision_btn_aniadir_emisora">Añadir nombre emisora</button>-->
+        <button class="smallest blue btn_leftered" data-section="section_logged_aniadir_emisora_nueva" data-l10n-id="id_article_logged_aniadir_emision_btn_aniadir_emisora" id="id_article_logged_aniadir_emision_btn_aniadir_emisora">Añadir nombre emisora</button>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emision_escribe_frecuencia">Introduce la frecuencia</li>
+            <li>
+                <input type="number" id="id_article_logged_aniadir_emision_frecuencia" required></input>
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_recomendacion_frecuencia">*entre 87.0 y 108.0</p>
+            </li>
+        </ul>
+        <button class="wide" data-l10n-id="id_article_logged_aniadir_emision_btn_aniadir_emision" id="id_article_logged_aniadir_emision_btn_aniadir_emision"></button>
+        <p><span id="txtBD_aniadir_emision"></span></p>
+    </section>
+
+    <section id="section_logged_aniadir_emisora_nueva" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_titulo"></h1>
+        <!--<h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_text2">Parece que no se existe el nombre de la emisora que conoces y quieres añadir. Habrá que añadirla a mano. Intenta ajustarte al nombre oficial completo.</h3>-->
+        <button class="icon info-circled blue btn_fijo_superior_drch" id="id_btn_logged_add_station_info"></button>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_emisora">Nombre Emisora</li>
+            <li><input type="text" id="id_article_logged_aniadir_emisora_nueva_nombre" maxlength="30" required/></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_elegir_alcance">Introduce su alcance</li>
+            <li>
+                <div id="txtBD_ddl_emisoras_alcance"></div>
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_elegir_tipo">Elige tipo(s) de emisora</li>
+            <li>
+                <div id="txtBD_ddl_emisoras_tipos"></div>
+            </li>
+        </ul>
+        <button class="wide" data-l10n-id="id_article_logged_aniadir_emisora_nueva_btn_aniadir_emisora" id="id_article_logged_aniadir_emisora_btn"></button>
+        <p><span id="txtBD_aniadir_emisora_nueva"></span></p>
+        <p><span id="txtBD_aniadir_emisora_nueva_tipos"></span></p>
+    </section>
+    
+    <section id="section_logged_rds" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_rds_titulo"></h1>
+        <ul>
+            <form class="rds_form">
+                <!--<div class="clear"></div>
+                <label id="mucha_prec_label" value="Mucha precisión" data-l10n-id="id_mucha_prec" class="ul_centered"/>
+                <input type="radio" id="mucha_prec" class="circle" name="prec" value="mucha_prec" data-l10n-id="id_mucha_prec"></input>-->
+                <div class="clear"></div>
+                <label id="normal_prec_label" value="Precisión Normal" data-l10n-id="id_normal_prec" class="ul_centered"></label>
+                <input type="radio" id="normal_prec" class="circle ul_centered" name="prec" value="normal_prec" data-l10n-id="id_normal_prec" checked="checked"></input>
+                <div class="clear"></div>
+                <label id="poca_prec_label" value="Poca precisión" data-l10n-id="id_poca_prec" class="ul_centered"></label>
+                <input type="radio" id="poca_prec" class="circle ul_centered" name="prec" value="poca_prec" data-l10n-id="id_poca_prec"></input>
+                <div class="clear"></div>
+            </form>
+            <button class="icon info-circled blue btn_fijo_superior_drch" id="id_btn_logged_rds_info"></button>
+        </ul>
+        <ul id="txtBD_rds_logged"></ul>
+        <ul id="txtBD_rds_logged_json"></ul>
+    </section>
+
+    <section id="section_logged_escanear_emisoras" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_escanear_emisoras_titulo"></h1>
+        <button class="icon info-circled blue btn_fijo_superior_drch" id="id_btn_logged_scan_info"></button>
+        <p><span id="txtBD_aniadir_emision_a_usuario"></span></p>
+        
+        <!--<button class="normal blue icon play botones_punt_fav" id="btn_logged_btn_play_radio"></button>-->
+        <button class="normal blue icon stop botones_punt_fav" id="btn_logged_btn_play_stop"></button>
+
+        <div id="antenna-warning" class="warning" hidden="">
+            <div></div>
+            <div id="antenna-warning-header" class="warning-header" data-l10n-id="noAntenna">Plug in a headset</div>
+            <div id="antenna-warning-body" class="warning-body" data-l10n-id="noAntennaMsg">FM Radio requires a plugged in headset to receive radio signals.</div>
+        </div>
+        <div id="airplane-mode-warning" class="warning" hidden="">
+            <div class="warning-header" data-l10n-id="airplaneModeHeader">Airplane mode is on</div>
+            <div class="warning-body" data-l10n-id="airplaneModeMsg">Turn off Airplane mode to use FM Radio.</div>
+        </div>
+    </section>
+
+    <!-- INFO EMISORA -->    
+    <section id="section_logged_info_emisora" class="indented" data-animation="slide">
+        <!--<ul id="txtBD_info_emisora_logged"></ul>-->
+        
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_info_emisora_nombre" id="id_info_emisora_nombre">Nombre emisora</li>
+            <li id="txtBD_info_emisora_logged_nombre"></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_info_emisora_tipo">Tipo emisora</li>
+            <li id="txtBD_info_emisora_logged_tipo"></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_info_emisora_alcance">Alcance emisora</li>
+            <li id="txtBD_info_emisora_logged_alcance"></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_info_emisora_fecha_agrego">Cuando se agregoó</li>
+            <li id="txtBD_info_emisora_logged_fecha_agrego"></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_info_emisora_sus_emisiones">Sus emisiones</li>
+            <li id="txtBD_info_emisora_logged_sus_emisiones"></li>
+        </ul>
+        <ul class="ul_centered">
+            <!--<li id="txtBD_info_emisora_logged_imagen_random"></li>-->
+            <!--<li><img class="img_perfil" src="./stylesheets/mine/icono_radio/2.svg" alt=""></li>-->
+        </ul>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="section_logged_profile" class="indented" data-animation="slide">
+        <ul id="txtBD_usuario_logged_profile_datos"></ul>
+        <!--<ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_foto">Foto</li>
+            <li><input type="file" accept="image/*" multiple id="input_foto"></li>
+        </ul>-->
+        
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_gps_info_coordenadas">Coordenadas GPS</li>
+            <li>
+                <input type="text" id="id_article_logged_profile_coordenadas" class="line" disabled="">
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_gps_info_zona">Posición</li>
+            <li>
+                <input type="text" id="id_article_logged_profile_posicion" class="line" disabled="">
+            </li>
+        </ul>
+
+        <h1 class="align-center" data-l10n-id="id_gps_latitud_info" id="id_gps_latitud_info" hidden></h1>     
+        <h1 class="align-center" data-l10n-id="id_gps_longitud_info" id="id_gps_longitud_info" hidden></h1>
+               
+        <h3 class="align-center" id="id_article_logged_posicion_gps_info_posiciones" hidden></h3><!-- style="font-weight: 300;" -->
+        
+        <h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_article_notlogged_posicion_gps_info_ciudad" id="id_article_notlogged_posicion_gps_info_ciudad" hidden></h3>
+        
+        <h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_gps_info_ciudad2" id="id_article_notlogged_posicion_gps_info_ciudad2" hidden></h3>
+
+        <ul class="ul_centered">
+            <!--<button class="blue" data-article="article_logged_profile_cambiar_pass" data-l10n-id="id_cambiar_password">Cambiar Password</button><br/>-->
+            <button class="blue" data-section="section_logged_profile_cambiar_pass" data-l10n-id="id_cambiar_password">Cambiar Password</button><br/>
+            <button class="small blue" data-l10n-id="id_article_logged_cerrar_sesion" id="btn_logged_profile_close_session">Cerrar Sesion</button>
+            <!--<button class="small blue" data-l10n-id="id_article_logged_eliminar_cuenta" data-article="article_logged_profile_eliminar_usuario">Eliminar Cuenta</button>-->
+            <button class="small blue" data-l10n-id="id_article_logged_eliminar_cuenta" data-section="section_logged_profile_eliminar_usuario">Eliminar Cuenta</button>
+        </ul>
+    </section>
+
+    <section id="section_logged_profile_listado_comentarios" class="indented" data-animation="slide">
+        <div class="color_fondo_app">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_titulo">Redactar comentario sobre la app</li>
+            <li>
+                <textarea id="id_article_logged_profile_listado_comentario_usuario_textarea" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_textarea_vacia" maxlength="160"></textarea>
+                <!-- placeholder="Escribe que te parece la app, que mejorarías y que no... Tu opinión nos interesa!!" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_textarea" -->
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_article_logged_profile_listado_comentario_usuario_informacion_publica">*este comentario puede aparecer de modo público para el resto de usuarios</p>
+            </li>
+        </ul>
+        <ul>
+            <button class="wide" data-l10n-id="id_article_logged_profile_listado_comentario_btn_guardar_comentario" id="id_article_logged_profile_btn_guardar_comentario">Guardar comentario</button>
+            <p><span id="txtBD_aniadir_comentario" hidden></span></p>
+        </ul>
+            <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_comentarios_subtitulo2"> Listado Comentarios del usuario</h1>
+            <!--<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_comentarios_subtitulo">Sección Listado Comentarios del usuario</h1>-->
+            <ul id="txtBD_usuario_logged_profile_listado_comentarios_propios"></ul>
+            <ul class="ul_centered">
+                <button class="wide_index black" data-section="section_logged_comments" data-l10n-id="id_btn_comments" id="id_btn_comments_logged">Ver Comentarios</button>
+            </ul>
+        </div>
+    </section>
+
+    <section id="section_logged_comments" class="indented" data-animation="cover">
+        <h1 class="align-center" data-l10n-id="id_comments_title">Sección Comentarios</h1>
+        <ul id="txtBD_logged_comentarios"></ul>
+    </section>
+
+    <section id="section_logged_profile_listado_favoritos" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_favoritos_titulo">Sección Listado Favoritos</h1>
+        <!--<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_favoritos_text1">Sección Listado Favoritos</h1>-->
+        <ul id="txtBD_usuario_logged_profile_listado_favoritos_propios"></ul>
+    </section>
+    
+    <section id="section_logged_profile_listado_puntuados" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_puntuados_titulo">Sección Listado Puntuados</h1>
+        <!--<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_puntuados_text1">Sección Listado Puntuados</h1>-->
+        <ul id="txtBD_usuario_logged_profile_listado_puntuados_propios"></ul>
+    </section>
+
+    <section id="section_logged_profile_listado_aniadidos" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_aniadidos_titulo">Sección Listado Añadidos</h1>
+        <!--<h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_profile_listado_aniadidos_text1">Sección Listado Añadidos</h1>-->
+        <ul id="txtBD_usuario_logged_profile_listado_aniadidos_emisoras_propios"></ul>
+        <ul id="txtBD_usuario_logged_profile_listado_aniadidos_emisiones_propios"></ul>
+    </section>
+
+    <section id="section_logged_profile_cambiar_pass" class="indented" data-animation="slide">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_email">Email</li>
+            <li><input type="email" id="id_article_logged_profile_cambiar_pass_email" class="line"></input></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password_actual">Password Actual</li>
+            <li><input type="password" id="id_article_logged_profile_cambiar_pass_pass_actual" class="line"></input></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password_nueva">Password Nueva</li>
+            <li><input type="password" id="id_article_logged_profile_cambiar_pass_pass_nueva" class="line"></input></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password_nueva_repetir">Repetir Password Nueva</li>
+            <li><input type="password" id="id_article_logged_profile_cambiar_pass_pass_nueva_rep" class="line"></input></li>
+        </ul>
+        <ul>
+            <button class="wide" data-l10n-id="id_guardar_cambios" id="id_article_logged_profile_cambiar_pass_btn_guardar_cambios">Guardar Cambios</button>
+        </ul>
+        <p><span id="txtBD_cambiar_pass"></span></p>
+    </section>
+
+    <section id="section_logged_profile_eliminar_usuario" class="indented" data-animation="slide">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_email">Email</li>
+            <li><input type="email" id="id_article_logged_profile_eliminar_usuario_email" class="line"></input></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password">Password</li>
+            <li><input type="password" id="id_article_logged_profile_eliminar_usuario_pass" class="line"></input></li>
+        </ul>
+        <ul>
+            <button class="wide" data-l10n-id="id_eliminar" id="id_article_logged_profile_eliminar_usuario_btn_eliminar">Eliminar</button>
+        </ul>
+        <p><span id="txtBD_delete_usuario"></span></p>
+        <p><span id="txtBD_logged_profile_eliminar_usuario_text1"></span></p>
+    </section>
+</article>

@@ -1,0 +1,76 @@
+<article id="pruebas" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <button class="icon left-open" data-article="article_index"></button>
+        </nav>
+        <h1 data-l10n-id="id_pruebas_titulo">Pruebas</h1>
+    </header>
+    <footer>
+        <button data-section="section_pruebas" data-l10n-id="id_pruebas_btn_varias">Pruebas Varias</button>
+        <button data-section="section_forms_entradas_bd" data-l10n-id="id_pruebas_btn_add_emisoras">Add Emisoras</button>
+        <button data-section="section_forms_listar_emisoras_bd" data-l10n-id="id_pruebas_btn_listar_emisoras">Listar Emisoras</button>
+        <!--<button data-section="section_pruebas_texto" data-l10n-id="id_pruebas_btn_pruebas_texto">Pruebas texto</button>-->
+        
+        <!--<button class="icon">@imagonbar</button>-->
+    </footer>
+
+    <section id="section_pruebas" class="indented" data-animation="slide">
+        <h1 class="align-center" data-l10n-id="id_pruebas_text1">Sección en pruebas</h1>
+
+        <p class="wide align-center" data-os="firefoxos" data-l10n-id="id_pruebas_text2">This is only seen in firefoxos</p>
+        <p class="wide align-center" data-os="android" data-l10n-id="id_pruebas_text2_2">This is only seen in Android</p>
+        <p class="wide align-center" data-browser="firefox chrome safari ie" data-l10n-id="id_pruebas_text3">This is only seen in firefox browser</p>
+
+        <p class="wide align-center" data-device="phone">This is only seen in phone mode</p>
+        <p class="wide align-center" data-device="tablet">This is only seen in tablet mode</p>
+
+        <h1 class="align-center" data-l10n-id="id_pruebas_text4">¿Está conectado a Internet?</h1>
+        <p class="wide align-center" id="prueba_p_1" data-os="firefoxos firefox"></p>
+        <p class="wide align-center" id="prueba_p_2" data-os="firefoxos firefox"></p>
+        <button class="wide" id="btn_pruebas_conectado" data-l10n-id="id_pruebas_btn_conectado">Ver estado de la conexión</button>
+
+        <h1 class="align-center" id="id_pruebas_idioma_text" data-l10n-id="id_pruebas_idioma_text"></h1>
+        <button class="wide" id="id_pruebas_idioma" data-l10n-id="id_pruebas_idioma">Ver idioma</button>
+
+        <button class="wide" id="showNotificationButton" data-l10n-id="id_pruebas_btn_ver_notifys">Ver notificación</button>
+
+        
+    </section>
+
+    <section id="section_forms_entradas_bd" class="indented">
+        <!--<form name="form_rfe">
+            <p class="form_text" data-l10n-id="id_nombre_emisora">Nombre Emisora</p>
+                <p><input type="text" placeholder="Cadena Ser" name="nombre_rfe" id="nombre_rfe" class="form_input" /><!- -nombre_rfe num_bastidor- ->
+            </p>
+            <p class="form_text" data-l10n-id="id_frecuencia">Frecuencia</p>
+                <p><input type="number" placeholder="93.2" name="frecuencia_rfe" id="frecuencia_rfe" class="form_input" /><!- -frecuencia_rfe combustible- ->
+            </p>
+            <!- -<p class="form_text">Valor Inutil</p>
+                <p><input type="number" placeholder="18" name="valor_inutil" id="valor_inutil" class="form_input" />
+                <!- -frecuencia_rfe combustible- ->
+            </p>- ->
+        </form>-->
+        <!-- RFE = Radio/Frecuencia/Emisora -->
+        <ul class="ul_centered">
+            <button class="small blue" name="btn_add_rfe" id="btn_add_rfe" data-l10n-id="id_pruebas_add_rfe">Add RFE</button>
+            <button class="small blue" name="btn_get_same_text_rfe" value="Get por Nombre RFE" id="btn_get_same_text_rfe" data-l10n-id="id_pruebas_get_rfe">Get por Nombre RFE</button>
+        </ul>
+    </section>
+    <section id="section_forms_listar_emisoras_bd">
+        <ul class="ul_centered">
+            <button name="btn_get_all_rfe" value="Get All RFE" id="btn_getAll_rfe" data-l10n-id="id_pruebas_get_all_rfe">Get All RFE</button>
+            <button name="btn_remove_all_rfe" value="Remove All RFE" id="btn_remove_all_rfe" data-l10n-id="id_pruebas_remove_all_rfe">Remove All RFE</button>
+            <p id="resultado_a_mostrar" class="form_text"></p>
+        </ul>
+    </section>
+
+    <!--<section id="section_pruebas_texto" class="indented">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_texto_pruebas">Texto prubeas</li>
+            <li><input type="text" id="id_article_pruebas_texto" class="line"></li>
+        </ul>
+        <button class="wide" data-l10n-id="id_entrar" id="id_article_pruebas_texto_comprobar">Comprobar</button>
+        <p><span id="txtBD_pruebas_texto"></span></p>
+    </section>-->
+
+</article>

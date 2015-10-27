@@ -1,0 +1,51 @@
+<article id="pruebas4" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <button class="icon left-open" data-article="article_index"></button>
+        </nav>
+        <h1 data-l10n-id="id_pruebas4_titulo">Pruebas 4</h1>
+    </header>
+    <footer>
+        <button class="" data-section="section_pruebas4"></button>
+        <button class="" data-section="section_pruebas4_2"></button>
+        <button class="" data-section="section_pruebas4_3"></button>
+        
+        <!--<button class="icon">@imagonbar</button>-->
+    </footer>
+
+    <section id="section_pruebas4" class="indented" data-animation="slide">
+        <h1 class="align-center" data-l10n-id="id_pruebas_text1">Sección en pruebas</h1>
+
+        <form id="upload" action="https://galan.ehu.es/imagonbar88/DAS/Pruebas/TakoJS/php_files_in_server/upload.php" method="POST" enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>HTML File Upload</legend>
+            <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="3000000" />
+            <div>
+                <label for="fileselect">Files to upload:</label>
+                <input type="file" id="fileselect" name="fileselect[]"/>
+                <div id="filedrag">or drop files here</div>
+            </div>
+            <div id="submitbutton">
+                <button type="submit">Upload Files</button>
+            </div>
+        </fieldset>
+
+        </form>
+    </section>
+    <section id="section_pruebas4_2" class="indented" data-animation="slide">
+        <h2>AJAX Image Upload</h2>
+        <form id="image_upload_form" enctype="multipart/form-data" method="post">
+        <input type="file" name="file1" id="image1"><br>
+        <!--<input type="button" value="Upload File" onclick="uploadFile()">-->
+        <progress id="progressBar" value="0" max="100" style="width:300px;"></progress>
+        <h3 id="status"></h3>
+        <p id="loaded_n_total"></p>
+    </section>
+    <section id="section_pruebas4_3" class="indented" data-animation="slide">
+        <p id="pruebas4_3_p"></p>
+        <!--<canvas></canvas>-->
+    </section>
+</article>
+
+

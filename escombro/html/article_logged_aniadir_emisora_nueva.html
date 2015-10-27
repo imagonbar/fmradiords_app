@@ -1,0 +1,37 @@
+<article id="article_logged_aniadir_emisora_nueva" data-animation="slide" class="">
+    <header>
+        <nav class="left">
+            <!--<button class="icon left-open" data-section="section_logged_aniadir_emision"></button>-->
+            <button class="icon left-open" data-back-logged-add="section_logged_aniadir_emision"></button>
+        </nav>
+        <nav class="right">
+            <button  class="icon user" data-article="article_logged_profile" data-visible="article_logged_aniadir_emision">
+        </nav>
+        <!--<h1 data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_titulo">Añadir Nombre Emisora</h1>-->
+        <h1 data-l10n-id="id_fmradiords">FM Radio RDS</h1>
+    </header>
+    <section id="section_logged_aniadir_emisora_nueva" class="indented" data-animation="slide">
+        <h1 class="align-center info_vista_subtitulos_sections" data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_titulo"></h1>
+        <!--<h3 class="align-center" style="font-weight: 300;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_text2">Parece que no se existe el nombre de la emisora que conoces y quieres añadir. Habrá que añadirla a mano. Intenta ajustarte al nombre oficial completo.</h3>-->
+        <button class="icon info-circled blue btn_fijo_superior_drch" id="id_btn_logged_add_station_info"></button>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_nombre_emisora">Nombre Emisora</li>
+            <li><input type="text" id="id_article_logged_aniadir_emisora_nueva_nombre" maxlength="30" required/></li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_elegir_alcance">Introduce su alcance</li>
+            <li>
+                <div id="txtBD_ddl_emisoras_alcance"></div>
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_article_logged_aniadir_emisora_nueva_elegir_tipo">Elige tipo(s) de emisora</li>
+            <li>
+                <div id="txtBD_ddl_emisoras_tipos"></div>
+            </li>
+        </ul>
+        <button class="wide" data-l10n-id="id_article_logged_aniadir_emisora_nueva_btn_aniadir_emisora" id="id_article_logged_aniadir_emisora_btn"></button>
+        <p><span id="txtBD_aniadir_emisora_nueva"></span></p>
+        <p><span id="txtBD_aniadir_emisora_nueva_tipos"></span></p>
+    </section>
+</article>

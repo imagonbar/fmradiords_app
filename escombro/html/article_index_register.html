@@ -1,0 +1,63 @@
+<article id="article_index_register" data-animation="slide">
+    <header>
+        <nav class="left">
+            <!--<button class="icon left-open" data-article="article_index"></button>-->
+            <button class="icon left-open" data-back="article_index"></button>
+        </nav>
+        <h1 data-l10n-id="id_register_titulo">Registro</h1>
+    </header>
+    <section id="section_index_register" class="indented" data-animation="slide">
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_nombre_usuario">Nombre Usuario</li>
+            <li>
+                <input type="text" id="id_article_index_register_nombre_usuario" class="line">
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_minimos_caracteres" maxlength="20">*mínimo 6 carácteres</p>
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_email">Email</li>
+            <li><input type="email" id="id_article_index_register_email" class="line"></li>
+        </ul>
+        <ul>
+            <!-- opcion 1 FIREFOX OS-->
+            <li class="separator" style="color:black;" data-l10n-id="id_foto" data-os="firefoxos"></li>
+            <div id="mainnn" data-os="firefoxos">
+                <div id="image-presenter"  data-os="firefoxos"></div>
+            </div>
+            <button id="pick-image_register" data-l10n-id="id_pick-image" data-os="firefoxos" class="wide_index brown">Pick image register</button>
+            
+            <!-- FUNCIONAN PARA ANDROID Y TABLET Y PC ESTAS DOS SIGUIENTES PARTES DE CODIGO, PERO NOS CENTRAMOS SOLO EN FxOS DE MOMENTO -->
+            <!-- opcion 2 movil-->
+            <!--<li class="separator" style="color:black;" data-l10n-id="id_foto" data-os="android">Foto</li>
+            <li data-os="android">
+                <input class="input" type="file" accept="image/*" id="foto_upload" name="foto_upload" data-os="android">
+            </li>-->
+
+            <!-- opcion 2 pc-tablet-->
+            <!--<li class="separator" style="color:black;" data-l10n-id="id_foto" data-device="tablet">Foto</li>
+            <li data-device="tablet">
+                <input class="input" type="file" accept="image/*" id="foto_upload" name="foto_upload" data-device="tablet">
+            </li>-->
+        </ul>
+        <!--<ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_foto">Foto3</li>
+            <button class="wide_index" id="pick-image" data-l10n-id="pick-image">Pick image</button>
+            <div id="image-presenter"></div>
+        </ul>-->
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password">Password</li>
+            <li><input type="password" id="id_article_index_register_pass" class="line">
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_minimos_caracteres">*mínimo 6 carácteres.</p>
+            </li>
+        </ul>
+        <ul>
+            <li class="separator" style="color:black;" data-l10n-id="id_password_bis">Repetir Password</li>
+            <li><input type="password" id="id_article_index_register_pass_rep" class="line">
+                <p class="subtitulo_mini_derecha" data-l10n-id="id_subtitulo_minimos_caracteres">*mínimo 6 carácteres.</p>
+            </li>
+        </ul>
+        <button class="wide" data-l10n-id="id_register_btn_register" id="id_article_index_register_btn_register">Realizar Registro</button>
+        <p><span id="txtBD_aniadir_usuario_index"></span></p>
+    </section>
+</article>
+
